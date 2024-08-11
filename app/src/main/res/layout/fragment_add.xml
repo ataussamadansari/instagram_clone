@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#A3A1A1"
     tools:context=".Post.AddFragment">
 
     <LinearLayout
@@ -40,7 +39,7 @@
             android:textSize="@dimen/_18sdp" />
     </LinearLayout>
 
-    <androidx.viewpager.widget.ViewPager
+    <ImageView
         android:id="@+id/imageIV"
         android:layout_width="match_parent"
         android:layout_height="0dp"
